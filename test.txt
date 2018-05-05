@@ -14,7 +14,7 @@ void main()
    { if(a<c)
       printf("Right\n");
      else if(a>c)
-	  printf("Left"); 
+	  printf("Left\n"); 
    }
   else
    printf("Impossible\n"); 
