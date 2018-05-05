@@ -1,1 +1,23 @@
-wow
+#include<stdio.h>
+void main()
+{ int n,a,b,c,d;
+ scanf("%d",&n);
+ while(n>0)
+ { scanf("%d%d%d%d",&a,&b,&c,&d);
+   if(a==c)
+   { if(b>d)
+      printf("Down\n");
+     else if(b<d)
+      printf("Up\n");
+   }
+   else if(b==d)
+   { if(a<c)
+      printf("Right\n");
+     else if(a>c)
+	  printf("Left"); 
+   }
+  else
+   printf("Impossible\n"); 
+ n--;
+ }
+}
