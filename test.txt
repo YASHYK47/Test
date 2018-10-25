@@ -17,7 +17,7 @@ void main()
 	  printf("Left\n"); 
    }
   else
-   printf("This is Impossible\n"); 
+   printf("Impossible\n"); 
  n--;
  }
 }
