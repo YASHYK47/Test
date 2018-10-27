@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 { int n,a,b,c,d;
  scanf("%d",&n);
  while(n>0)
@@ -20,4 +20,5 @@ void main()
    printf("This is Impossible\n"); 
  n--;
  }
+ return 0;
 }
